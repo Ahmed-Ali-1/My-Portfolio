@@ -1,0 +1,16 @@
+@media (min-width: 992px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 1200px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    width: 100%;
+  }
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- ===== NAV SECTION ===== -->
+    <section class="nav_section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 position-fixed w-100">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#home">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        <!-- ===== HERO SECTION ===== -->
+        <section class="hero_section" id="home">
+            <div class="container py-5">
+                <div class="row align-items-center gap-4 g-4">
+                    <div class="col">
+                        <div class="hero_leftSide">
+                            <h1>Ahmed Ali</h1>
+                            <h2>Frontend Developer</h2>
+                            <p>Learning to build fast, scalable, and user-friendly web applications.</p>
+                            <a href="#footer" class="mybtn">Contact</a>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                        <div class="hero_rightSide">
+                            <img class="profile_image" src="./assets/images/profile image.png" alt="Profile Image">
+                            <img class="red_ractangle" src="./assets/images/Rectangle 21.png" alt="red ractangle">
+                            <img class="green_ractangle" src="./assets/images/Rectangle 25.png" alt="green ractangle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section class="about_section py-5" id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <div class="about-text pt-2">
+                            <p>
+                                Hi, I'm <strong>Ahmad Ali</strong> — a passionate Front-End Web Developer
+                                learning to build modern, responsive, and visually appealing websites.
+                                I enjoy transforming ideas into functional and interactive web experiences.
+                            </p>
+                            <p>
+                                Currently, I’m expanding my skills in HTML, CSS, and JavaScript at
+                                <strong>Saylani Mass IT Training (SMIT)</strong> and exploring frameworks
+                                like Bootstrap and React.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="skills">
+                            <h3>Expertise</h3>
+                            <ul class="list-unstyled">
+                                <li><i class="fa-solid fa-code me-3"></i> HTML5 & CSS3</li>
+                                <li><i class="fa-solid fa-bolt me-3"></i> JavaScript</li>
+                                <li><i class="fa-brands fa-bootstrap me-3"></i> Bootstrap 5</li>
+                                <li><i class="fa-solid fa-laptop-code me-3"></i> Responsive Web Design</li>
+                                <li><i class="fa-brands fa-github me-3"></i> Github (Advanced) </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section class="projects_section py-5" id="project">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="row g-4">
+                    <div class="col">
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="./assets/images/Kider Smiles.png" alt="Kinder Smiles Template"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="project-content">
+                                <h4><i class="fa-solid fa-tooth me-2"></i>Kinder Smiles Template</h4>
+                                <p>This is a responsive website for Kinder Smiles made with HTML5, CSS3, JavaScript,
+                                    Boodtrape5, Font Awesome. It includes smooth animation for a modern look.</p>
+                                <div class="d-flex gap-2">
+                                    <a href="https://github.com/Ahmed-Ali-1/KINDER-SMILES" target="_blank"
+                                        class="btn btn-outline-light mt-2"><i
+                                            class="fa-brands fa-github me-2"></i>Code</a>
+                                    <a href="https://ahmed-ali-1.github.io/KINDER-SMILES/"
+                                        class="btn btn-outline-light mt-2"><i
+                                            class="fa-solid fa-up-right-from-square me-2"></i>Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="./assets/images/Robo.png" alt="Robo Negotiator Landing Page"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="project-content">
+                                <h4><i class="fa-solid fa-car-side me-2"></i>Robo Negotiator Landing Page</h4>
+                                <p>This is a responsive website for Robo Negotiator made with HTML5, CSS3, JavaScript,
+                                    Font Awesome. It includes smooth animation for a modern look.</p>
+                                <div class="d-flex gap-2 align-items-center">
+                                    <a href="https://github.com/Ahmed-Ali-1/Robo-Negotiator-Landing-Page"
+                                        target="_blank" class="btn btn-outline-light mt-2"><i
+                                            class="fa-brands fa-github me-2"></i>Code</a>
+                                    <a href="https://ahmed-ali-1.github.io/Robo-Negotiator-Landing-Page/"
+                                        class="btn btn-outline-light mt-2"><i
+                                            class="fa-solid fa-up-right-from-square me-2"></i>Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="./assets/images/nizam.png" alt="Nizam Watch House"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="project-content">
+                                <h4><i class="fa-regular fa-clock me-2"></i>Nizam Watch House</h4>
+                                <p>This is a responsive website for Nizam Watch House made with HTML5, CSS3, Bootstrap5,
+                                    Font Awesome, Owl
+                                    Carousel, and AOS. It includes scroll animations and sliders for a modern look.</p>
+                                <div class="d-flex gap-2">
+                                    <a href="https://github.com/Ahmed-Ali-1/Nizam_Watch_Clone" target="_blank"
+                                        class="btn btn-outline-light mt-2"><i
+                                            class="fa-brands fa-github me-2"></i>Code</a>
+                                    <a href="https://ahmed-ali-1.github.io/Nizam_Watch_Clone/"
+                                        class="btn btn-outline-light mt-2"><i
+                                            class="fa-solid fa-up-right-from-square me-2"></i>Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER SECTION ===== -->
+
+    <footer class="footer_section py-5" id="footer">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer_leftSide">
+                        <p>This is a template Figma file, turned into code using Anima. Learn more at
+                            AnimaApp.com This is a
+                            template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+                        <div class="iconDiv d-flex gap-4">
+                            <a target="_blank" href="https://github.com/Ahmed-Ali-1"><i
+                                    class="fa-brands fa-square-github"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/ahmed-ali-807514295/"><i
+                                    class="fa-brands fa-square-linkedin"></i></a>
+                            <a target="_blank"
+                                href="https://drive.google.com/file/d/18niQpuiBYy-GPnpzILL8pSAPfo7ohO4F/view?usp=drive_link"><i
+                                    class="fa-solid fa-file"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="">
+                        <div class="inputDiv d-flex flex-column gap-2">
+                            <input type="text" name="" id="" placeholder="Name">
+                            <input type="email" name="" id="" placeholder="Email">
+                            <textarea name="Massage" rows="1" placeholder="Massage" id=""></textarea>
+                            <a href="" class="mybtn mt-2">Submit</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
