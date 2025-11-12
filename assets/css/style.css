@@ -248,7 +248,7 @@ body {
 .project-img img {
   width: 100%;
   height: auto;
-  transition: transform 0.5s ease;  
+  transition: transform 0.5s ease;
   height: 240px;
   object-fit: cover;
 }
@@ -341,13 +341,14 @@ body {
 }
 
 .footer {
-  border-top: 2px solid var(--grey-color);
+  border-top: 1px solid var(--grey-color);
   padding: 12px 100px;
   display: flex;
   background-color: var(--btn-color);
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+
 }
 
 .footer_text p {
@@ -367,12 +368,13 @@ body {
 
 .footer_icon i {
   font-size: 20px;
-  color: #ffffff80;
+  color: var(--grey-color);
   transition: all 0.3s ease;
 
 }
 
 .footer_icon i:hover {
-  color: var(--grey-color);
+  color: #ffffff80;
   transform: translateY(-3px);
+
 }
