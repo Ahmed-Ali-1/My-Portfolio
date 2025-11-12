@@ -9,8 +9,183 @@
   }
 }
 
+/* ----------NAVBAR-SECTION-------- */
+
 @media (max-width: 768px) {
+  .nav_section .navbar-collapse {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .nav_section .nav-link {
+    display: block;
+    padding: 8px 0;
+  }
+}
+
+/* ----------HERO-SECTION-------- */
+
+@media (max-width: 991px) {
+  .hero_section {
+    padding-top: 60px;
+  }
+
+  .hero_leftSide h1 {
+    font-size: 46px;
+  }
+
+  .hero_leftSide h2 {
+    font-size: 28px;
+  }
+
+  .hero_leftSide p {
+    max-width: 100%;
+  }
+
+  .hero_rightSide {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .hero_rightSide .profile_image {
+    width: 280px;
+    max-width: 100%;
+  }
+
+  .hero_rightSide .red_ractangle {
+
+    top: -8px;
+    right: 0;
+    width: 60px;
+  }
+
+  .hero_rightSide .green_ractangle {
+
+    bottom: 36px;
+    left: -30px;
+    width: 60px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .hero_leftSide h1 {
+    font-size: 36px;
+  }
+
+  .hero_leftSide h2 {
+    font-size: 24px;
+  }
+
+  .hero_leftSide p {
+    font-size: 14px;
+  }
+
+  .mybtn {
+    padding: 12px 26px;
+    font-size: 13px;
+  }
+}
+
+/* --------ABOUT-SECTION-------*/
+
+@media (max-width: 991px) {
+  .about-text {
+    max-width: 100%;
+  }
+
   .skills {
-    width: 100%;
+    margin-top: 20px;
+  }
+
+  .skills ul li {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-text {
+    text-align: center;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  .about-text {
+    font-size: 14px;
+
+  }
+
+  .about_section h2 {
+    font-size: 24px;
+  }
+
+  .skills {
+    padding: 25px;
+  }
+
+  .skills li {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+}
+
+/* ----------PROJECTS-SECTION-------- */
+
+@media (max-width: 991px) {
+  .project-content p {
+    font-size: 12px;
+  }
+
+  .project-img img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-img img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-img img {
+    height: 280px;
+  }
+
+  .projects_section h2 {
+    font-size: 24px;
+  }
+
+  .btn-outline-light {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+}
+
+/* ----------FOOTER-SECTION-------- */
+
+@media (max-width: 992px) {
+  .contact_section {
+    margin: 0px;
+  }
+
+  .footer {
+    padding: 12px 20px;
+
+  }
+
+  .footer_text p {
+
+    font-size: 12px;
+  }
+
+  .footer_icon i {
+    font-size: 16px;
   }
 }
